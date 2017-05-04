@@ -1,7 +1,7 @@
 #!/bin/bash
 ## build src
 echo $1 #project git url
-webroot="/home/sole/project/build_web/"
+webroot="/home/project/build_web/"
 ngx_root="/etc/nginx/sites-available/"
 giturl=$1
 port=$2
