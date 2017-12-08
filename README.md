@@ -6,7 +6,7 @@
  # linux 开机自动启动任务:
  * /etc/rc.d/rc.local
  * /alidata/server/httpd/bin/apachectl
- * /usr/bin/php /mnt/socket/GatewayWorker/start.php start -d 
+ * /usr/bin/php /xxx/start.php start -d 
  * /etc/init.d/mysqld
  # 关闭防火墙，不然外部无法访问
  * service iptables stop
