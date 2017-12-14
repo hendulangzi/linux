@@ -4,6 +4,8 @@
  修复方法：查看数据盘挂载配置是否正确，举例：要将/dev/xvdb这类，更改成/dev/vdb，然后保存文件，重启服务器，即可恢复正常
  
  # linux 开机自动启动任务:
+ 1.查看/etc/rc.local是否有执行权限，没有就加上
+ * chmod +x /etc/rc.local
  * vim /etc/rc.d/rc.local
  * /alidata/server/httpd/bin/apachectl
  * /usr/bin/php /xxx/start.php start -d 
