@@ -1,0 +1,41 @@
+1、安装相应的软件
+yum install mysql : 安装mysql客户端
+yum install mysql-server 安装服务端
+yum install mysql-devel  安装相关的开发依赖
+
+2、mysql用户添加更新
+新建mysql用户
+userdel mysql 
+useradd mysql -d /home/mysql
+3、修改配置
+修改mysql的一些配置，主要会涉及到数据目录和端口等
+vim /etc/my.conf
+##############################################
+
+[mysqld]
+datadir=/home/mysql/data
+socket=/var/lib/mysql/mysql.sock
+user=mysql
+# Disabling symbolic-links is recommended to prevent assorted security risks
+symbolic-links=0
+port=8990
+default-character-set=utf8
+
+[mysqld_safe]
+log-error=/var/log/mysqld.log
+pid-file=/var/run/mysqld/mysqld.pid
+
+4、yum安装方式的日志、pid目录修改创建
+rm -rf /var/lib/mysql  && mkdir -p /var/lib/mysql  && chown mysql:mysql /var/lib/mysql
+
+rm -rf /var/run/mysqld/ && mkdir -p /var/run/mysqld/ && chown mysql:mysql /var/run/mysqld/
+
+5、启动服务
+service mysqld start
+
+6、新建root用户以及密码
+mysqladmin -u root password 123456
+7、root用户登录(必须在server本机上)
+更新host白名单限制
+update mysql.user set Host="%"  where User="root" and Host="localhost";
+flush privileges;
