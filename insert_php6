@@ -20,3 +20,4 @@ yum源配置好了，下一步就安装PHP5.6。
 安装PHP-fpm
 [html] view plain copy
 yum install --enablerepo=remi --enablerepo=remi-php56 php-fpm  
+启动：/etc/init.d/php-fpm start
