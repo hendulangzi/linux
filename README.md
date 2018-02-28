@@ -1,3 +1,6 @@
+
+ # 本项目主要介绍linux下安装php环境
+
 # linux
  * 1、fdisk -l 查看磁盘
  * 2、错误：give root password for maintenance 
