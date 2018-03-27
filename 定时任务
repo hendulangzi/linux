@@ -1,0 +1,14 @@
+ # 1、编辑 crontab.sh
+#!/bin/bash
+step=1 #间隔的秒数，不能大于60
+for (( i = 0; i < 60; i=(i+step) )); do
+    curl http://xxx.com/Group >> /tmp/task_crontab.log 2>&1
+    sleep $step
+done
+exit 0
+
+# 2 crontab -e 输入以下语句，然后:wq 保存退出。
+
+
+# m h  dom mon dow   command
+* * * * * /home/fdipzone/php/crontab/crontab.sh
