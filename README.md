@@ -16,3 +16,4 @@
  # 关闭防火墙，不然外部无法访问
  * service iptables stop
 # 集成安装包 https://oneinstack.com/
+# 自动安装 https://oneinstack.com/auto/
