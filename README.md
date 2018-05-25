@@ -15,3 +15,4 @@
  * /etc/init.d/mysqld
  # 关闭防火墙，不然外部无法访问
  * service iptables stop
+# 集成安装包 https://oneinstack.com/
