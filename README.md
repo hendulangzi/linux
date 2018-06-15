@@ -17,3 +17,4 @@
  * service iptables stop
 # 集成安装包 https://oneinstack.com/
 # 自动安装 https://oneinstack.com/auto/
+# 检查 curl -Ss http://www.workerman.net/check.php | php
