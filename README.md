@@ -18,3 +18,8 @@
 # 集成安装包 https://oneinstack.com/
 # 自动安装 https://oneinstack.com/auto/
 # 检查 curl -Ss http://www.workerman.net/check.php | php
+# mysql MySQL启动出现The server quit without updating PID file
+ https://blog.csdn.net/aa464971/article/details/52976230
+ 解决办法其实很简单：
+
+ 将 /etc/mysql 下的 my.cnf 文件删除，再次启动MySQL服务
