@@ -23,3 +23,6 @@
  * 解决办法其实很简单：
 
  * 将 /etc/mysql 下的 my.cnf 文件删除，再次启动MySQL服务
+
+#workman打开后，其他php无法启动的问题
+要在apache启动前 启动workman才行 或者卸载xcache
