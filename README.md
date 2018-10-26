@@ -26,3 +26,5 @@
 
 #workman打开后，其他php无法启动的问题
 要在apache启动前 启动workman才行 或者卸载xcache
+
+宝塔 报错500  http.conf 修改 MaxRequestLen 10240000
