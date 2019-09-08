@@ -32,3 +32,5 @@
 # linux一直运行php进程 及查看进程
  * 启动 nohup  php XX.php &
  * ps a 显示现行终端机下的所有程序，包括其他用户的程序。
+
+# yii启动任务  nohup ./yii init/hq
