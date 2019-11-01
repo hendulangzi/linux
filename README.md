@@ -34,3 +34,4 @@
  * ps a 显示现行终端机下的所有程序，包括其他用户的程序。
 
 # yii启动任务  nohup ./yii init/hq
+# 如果还是不行，就初始化 yii项目：/www/wwwroot/xx/init 选择1，选择ALL
