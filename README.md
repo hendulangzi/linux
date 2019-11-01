@@ -35,3 +35,4 @@
 
 # yii启动任务  nohup ./yii init/hq
 # 如果还是不行，就初始化 yii项目：/www/wwwroot/xx/init 选择1，选择ALL
+ * (https://segmentfault.com/a/1190000004316829)
