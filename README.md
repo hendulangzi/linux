@@ -36,3 +36,6 @@
 # yii启动任务  nohup ./yii init/hq
 # 如果还是不行，就初始化 yii项目：/www/wwwroot/xx/init 选择1，选择ALL
  * (https://segmentfault.com/a/1190000004316829)
+
+# 报错：Fatal error: Cannot use 'Object' as class name as it is reserved in /www/www 
+ * 切换php版本为56
