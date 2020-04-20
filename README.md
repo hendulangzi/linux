@@ -39,3 +39,13 @@
 
 # 报错：Fatal error: Cannot use 'Object' as class name as it is reserved in /www/www 
  * 切换php版本为56
+
+# Exception 'yii\base\InvalidConfigException' with message 'The configuration for the "user" component must contain a "class" element.'
+ * /www/wwwroot/wwwxxx/common/config/main.php 修改user 配置
+'user' => [
+			'class' => 'yii\web\User',
+            'enableAutoLogin' => true,
+            'enableSession' => true,
+            'idParam' => '__user'
+        ],
+
