@@ -43,3 +43,6 @@
 # 报错：Exception 'yii\base\InvalidConfigException' with message 'The configuration for the "user" component must contain a "class" element.'
  * /www/wwwroot/wwwxxx/common/config/main.php 修改user 配置 加 'class' => 'yii\web\User',
 
+# 数据盘挂载 linux
+ * https://www.cnblogs.com/xuzhongtao/p/11346728.html
+
