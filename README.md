@@ -45,4 +45,9 @@
 
 # 数据盘挂载 linux
  * https://www.cnblogs.com/xuzhongtao/p/11346728.html
+# sh: yii: command not found
+ * 1.在终端输入：vim ~/.bash_profile
 
+ * 2.在里面添加：export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin:.
+
+ * 3.在:wq后，输入：source  ~/.bash_profile
