@@ -23,4 +23,4 @@ yum install --enablerepo=remi --enablerepo=remi-php56 php-fpm
 启动：/etc/init.d/php-fpm start
 
 
-# 例外一种安装方法 https://www.cnblogs.com/morgan363/p/11865630.html
+# 例外一种安装方法 https://www.cnblogs.com/cbryge/p/6022370.html
