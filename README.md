@@ -51,3 +51,6 @@
  * 2.在里面添加：export PATH=/usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin:.
 
  * 3.在:wq后，输入：source  ~/.bash_profile
+ 
+ # php: error while loading shared libraries: libmcrypt.so.4: cannot open shared object file: No such file or directory
+  * yum install libmcrypt
